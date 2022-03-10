@@ -86,6 +86,8 @@ header a:hover{
     background-position: center center;
 }
 
+.color-palabra{color:cyan;}
+
 #hero h1{
     color: white;
 }
@@ -93,23 +95,28 @@ header a:hover{
 /* #enfoque{
 
 } */
+#hero button{
+    font-size: 1.75em;
+}
 
 #enfoque .container{
     text-align: center;
     padding: 200px 12px;
 }
 
-.color-palabra{color:cyan;}
-
 #proyectos{
     background-color: rgb(30, 30, 30);
     color: white;
+    text-align: center;
 }
 #proyectos .container{
-    text-align: center;
-    padding: 200px 12px;
+   /* text-align: center;*/
+    padding: 150px 12px;
 } 
 
+#proyectos h2{
+    margin-top: 0;
+}
 /*Se crea una clase para que cambie el color a un texto*/
 
 #proyectos p{
