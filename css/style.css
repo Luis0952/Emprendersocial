@@ -21,3 +21,61 @@ button{
     color: white;
     background-color: blueviolet;
 }
+
+button:hover{
+    background-color: violet;
+}
+
+.container{
+    max-width: 1400px;
+     margin: auto; /*esto hace que se coloquen margenes automaticos */
+}
+
+header{
+    background-color: rgb(245, 245, 245);  
+}
+
+header .logofs{
+    margin: 0;
+    padding: 25px 30px; /*el primer valor es el padding de arriba y abajo y el otro es los costados */
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 50px;
+}
+
+header .container{
+    margin: 0;
+    display: flex; 
+     flex-direction: column;
+     align-items: center;
+}
+
+header .nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blue;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)), url("/images/imagenayudasion.jpg");
+}
